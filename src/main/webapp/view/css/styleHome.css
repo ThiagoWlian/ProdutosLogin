@@ -1,0 +1,37 @@
+body{
+    height: 800px;
+    background: rgb(3,215,252);
+    background: linear-gradient(90deg, rgba(3,215,252,0.896796218487395) 0%, rgba(3,215,252,0.6951155462184874) 40%, rgba(3,215,252,0.39539565826330536) 73%, rgba(3,215,252,0.13489145658263302) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.acoes{
+    width: 100%;
+    display: block;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 1.2;
+    margin:auto;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-weight: 600;
+    width: 90%;
+    height: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
+}

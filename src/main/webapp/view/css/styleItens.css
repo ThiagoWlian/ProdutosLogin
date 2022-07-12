@@ -1,0 +1,91 @@
+body{
+    min-height: 800px;
+    background: rgb(3,215,252);
+    background: linear-gradient(90deg, rgba(3,215,252,0.896796218487395) 0%, rgba(3,215,252,0.6951155462184874) 40%, rgba(3,215,252,0.39539565826330536) 73%, rgba(3,215,252,0.13489145658263302) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.itens{
+    width: 70%;
+    min-height: 900px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.item{
+    width: 80%;
+    height: 320px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+}
+
+.itemImagem{
+    width: 25%;
+    height: 80%;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    border:1px solid;
+}
+
+.itemConteudo{
+    width: 100%;
+    height: 75%;
+}
+
+.itemLayoutBlock{
+    width: 64%;
+    height: 80%;
+    margin-top: 2.5%;
+    margin-left: 1%;
+}
+
+.menuInferior{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemMenuAcoes{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.itemButton{
+    width: 35%;
+    height: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2%;
+    background: rgba(3,215,252,0.896796218487395);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.menuInferior p{
+    font-size: 30px;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    text-align: center;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 1% 0 3% 1%
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1% 0 3% 2%
+}
